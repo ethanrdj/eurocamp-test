@@ -1,14 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import { Main } from './features/Main';
 
 export function App() {
-  return (
-    <div>
-      <NxWelcome title="handle-api" />
-    </div>
-  );
+  return <Main />;
 }
 
 export default App;
