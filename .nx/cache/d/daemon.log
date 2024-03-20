@@ -1,0 +1,64 @@
+[NX Daemon Server] - 2024-03-20T10:33:47.145Z - Started listening on: /var/folders/lb/gcwhfbf16jz_6x4_rrb_16cc0000gn/T/13f063061495020711df/d.sock
+[NX Daemon Server] - 2024-03-20T10:33:47.147Z - [WATCHER]: Subscribed to changes within: /Users/ethandavis/Documents/tech-tests/engineering-test (native)
+[NX Daemon Server] - 2024-03-20T10:33:47.152Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-20T10:33:47.152Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-20T10:33:47.154Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-20T10:33:47.155Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-20T10:33:47.155Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-20T10:33:47.155Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-20T10:33:47.155Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-20T10:33:47.269Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-20T10:33:47.269Z - Time taken for 'total for creating and serializing project graph' 113.98858299999999ms
+[NX Daemon Server] - 2024-03-20T10:33:47.270Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-20T10:33:47.271Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 114. Response time: 3.
+[NX Daemon Server] - 2024-03-20T10:33:47.723Z - [WATCHER]: 17 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-20T10:33:47.725Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-20T10:33:47.826Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-20T10:33:47.826Z - [REQUEST]: apps/handle-api/.eslintrc.json,apps/handle-api/src/index.html,apps/handle-api/src/app/app.spec.tsx,apps/handle-api/project.json,apps/handle-api/src/app/nx-welcome.tsx,apps/handle-api/.babelrc,apps/handle-api/src/app/app.module.css,apps/handle-api/src/main.tsx,apps/handle-api/tsconfig.app.json,apps/handle-api/jest.config.ts,apps/handle-api/tsconfig.spec.json,apps/handle-api/src/assets/.gitkeep,apps/handle-api/webpack.config.js,apps/handle-api/src/app/app.tsx,apps/handle-api/src/favicon.ico,apps/handle-api/tsconfig.json,apps/handle-api/src/styles.css,nx.json,package.json
+[NX Daemon Server] - 2024-03-20T10:33:47.826Z - [REQUEST]: 
+Unable to create nodes for apps/engineering/webpack.config.js using plugin @nx/webpack/plugin. 
+
+	 Inner Error: TypeError: Cannot read properties of undefined (reading 'tsConfig')
+    at configure (/Users/ethandavis/Documents/tech-tests/engineering-test/node_modules/@nrwl/webpack/src/utils/with-nx.js:36:41)
+    at /Users/ethandavis/Documents/tech-tests/engineering-test/node_modules/@nrwl/webpack/src/utils/config.js:19:32
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/ethandavis/Documents/tech-tests/engineering-test/node_modules/tslib/tslib.js:164:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[NX Daemon Server] - 2024-03-20T10:33:50.448Z - Time taken for 'hash changed files from watcher' 0.7156250000000455ms
+[NX Daemon Server] - 2024-03-20T10:34:00.298Z - [WATCHER]: apps/handle-api-app was deleted
+[NX Daemon Server] - 2024-03-20T10:34:00.299Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-20T10:34:00.505Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-20T10:34:00.505Z - [REQUEST]: apps/handle-api/.eslintrc.json,apps/handle-api/src/index.html,apps/handle-api/src/app/app.spec.tsx,apps/handle-api/project.json,apps/handle-api/src/app/nx-welcome.tsx,apps/handle-api/.babelrc,apps/handle-api/src/app/app.module.css,apps/handle-api/src/main.tsx,apps/handle-api/tsconfig.app.json,apps/handle-api/jest.config.ts,apps/handle-api/tsconfig.spec.json,apps/handle-api/src/assets/.gitkeep,apps/handle-api/webpack.config.js,apps/handle-api/src/app/app.tsx,apps/handle-api/src/favicon.ico,apps/handle-api/tsconfig.json,apps/handle-api/src/styles.css,nx.json,package.json
+[NX Daemon Server] - 2024-03-20T10:34:00.505Z - [REQUEST]: apps/handle-api-app
+Unable to create nodes for apps/engineering/webpack.config.js using plugin @nx/webpack/plugin. 
+
+	 Inner Error: Error: ENOENT: no such file or directory, open '/Users/ethandavis/Documents/tech-tests/engineering-test/node_modules/webpack/lib/index.js'
+    at Object.readFileSync (node:fs:453:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1397:18)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/Users/ethandavis/Documents/tech-tests/engineering-test/node_modules/@nrwl/webpack/src/utils/with-nx.js:5:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+Unable to create nodes for apps/handle-api/webpack.config.js using plugin @nx/webpack/plugin. 
+
+	 Inner Error: Error: ENOENT: no such file or directory, open '/Users/ethandavis/Documents/tech-tests/engineering-test/node_modules/@nx/react/node_modules/@nx/devkit/index.js'
+    at Object.readFileSync (node:fs:453:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1397:18)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/Users/ethandavis/Documents/tech-tests/engineering-test/node_modules/@nx/react/src/generators/application/lib/create-application-files.js:4:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+[NX Daemon Server] - 2024-03-20T10:34:01.660Z - Time taken for 'hash changed files from watcher' 4.871916000000056ms
+[NX Daemon Server] - 2024-03-20T10:34:05.530Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-20T10:34:07.174Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-20T10:34:07.178Z - [WATCHER]: Stopping the watcher for /Users/ethandavis/Documents/tech-tests/engineering-test (sources)
+[NX Daemon Server] - 2024-03-20T10:34:07.179Z - [WATCHER]: Stopping the watcher for /Users/ethandavis/Documents/tech-tests/engineering-test (outputs)
+[NX Daemon Server] - 2024-03-20T10:34:07.179Z - Server stopped because: "Lock file changed"

@@ -1,0 +1,489 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.1.2",
+  "deps": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/config": "^2.3.1",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/platform-express": "^9.0.0",
+    "@nestjs/swagger": "^6.2.1",
+    "@nestjs/typeorm": "^9.0.1",
+    "@nx/react": "^18.1.2",
+    "axios": "^1.3.4",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "faker": "^6.6.6",
+    "helmet": "^6.0.1",
+    "pg": "^8.9.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0",
+    "swagger-ui-express": "^4.6.1",
+    "typeorm": "0.3.12",
+    "typeorm-seeding": "^1.6.1",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13",
+    "@nestjs/schematics": "^9.0.0",
+    "@nestjs/testing": "^9.0.0",
+    "@nrwl/eslint-plugin-nx": "15.7.2",
+    "@nrwl/jest": "15.7.2",
+    "@nrwl/linter": "15.7.2",
+    "@nrwl/nest": "15.7.2",
+    "@nrwl/node": "15.7.2",
+    "@nrwl/nx-cloud": "latest",
+    "@nrwl/webpack": "15.7.2",
+    "@nrwl/workspace": "15.7.2",
+    "@types/faker": "^6.6.9",
+    "@types/jest": "28.1.1",
+    "@types/node": "18.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "~8.15.0",
+    "eslint-config-prettier": "8.1.0",
+    "jest": "28.1.1",
+    "jest-environment-jsdom": "28.1.1",
+    "nx": "15.7.2",
+    "prettier": "^2.6.2",
+    "ts-jest": "28.0.5",
+    "ts-node": "10.9.1",
+    "tslib": "^2.5.0",
+    "typescript": "~4.8.2"
+  },
+  "pathMappings": {
+    "@eurocamp/server": [
+      "libs/server/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".dockerignore",
+        "hash": "18443965528584425987"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".env",
+        "hash": "5193210946785831878"
+      },
+      {
+        "file": ".env.docker",
+        "hash": "7016193517133341684"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "1659929058009100827"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16687964170276207259"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "17733650430415207254"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "235626400633494639"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "3305144577498736626"
+      },
+      {
+        "file": "Engineering.postman_collection.json",
+        "hash": "7711019869674572120"
+      },
+      {
+        "file": "NOTES.md",
+        "hash": "12504580960269030752"
+      },
+      {
+        "file": "README.md",
+        "hash": "1189012393398545943"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "3906736852310019709"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "2950215254536237782"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "2772139696069860212"
+      },
+      {
+        "file": "jsconfig.json",
+        "hash": "17785895863954894093"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "nx.json",
+        "hash": "3704110719496134605"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "10671370964751213854"
+      },
+      {
+        "file": "package.json",
+        "hash": "9537085704993108041"
+      },
+      {
+        "file": "tools/generators/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5933249201911328944"
+      },
+      {
+        "file": "workspace.json",
+        "hash": "1787640766521082003"
+      }
+    ],
+    "projectFileMap": {
+      "server": [
+        {
+          "file": "libs/server/.babelrc",
+          "hash": "2685020516260856122"
+        },
+        {
+          "file": "libs/server/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "libs/server/README.md",
+          "hash": "11968200940817392142"
+        },
+        {
+          "file": "libs/server/jest.config.ts",
+          "hash": "9094584578487198812"
+        },
+        {
+          "file": "libs/server/project.json",
+          "hash": "14075134631476895754"
+        },
+        {
+          "file": "libs/server/src/index.ts",
+          "hash": "11188884045228494457",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/platform-express",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "libs/server/src/lib/server.module.ts",
+          "hash": "4144998327762021541",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/server/tsconfig.json",
+          "hash": "12834038490315927699"
+        },
+        {
+          "file": "libs/server/tsconfig.lib.json",
+          "hash": "15773338127516321285"
+        },
+        {
+          "file": "libs/server/tsconfig.spec.json",
+          "hash": "2406015174838385060"
+        }
+      ],
+      "engineering-e2e": [
+        {
+          "file": "apps/engineering-e2e/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/engineering-e2e/jest.config.ts",
+          "hash": "4567532217216722594"
+        },
+        {
+          "file": "apps/engineering-e2e/project.json",
+          "hash": "476337413298823047"
+        },
+        {
+          "file": "apps/engineering-e2e/src/engineering/engineering.spec.ts",
+          "hash": "4579662685003779048",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/engineering-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/engineering-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/engineering-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/engineering-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "apps/engineering-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
+        }
+      ],
+      "engineering": [
+        {
+          "file": "apps/engineering/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/engineering/Dockerfile.dev",
+          "hash": "13909785672868798791"
+        },
+        {
+          "file": "apps/engineering/jest.config.ts",
+          "hash": "6661504376891193098"
+        },
+        {
+          "file": "apps/engineering/ormconfig.json",
+          "hash": "14544071618042599973"
+        },
+        {
+          "file": "apps/engineering/project.json",
+          "hash": "6437575484335639281"
+        },
+        {
+          "file": "apps/engineering/src/app.module.ts",
+          "hash": "16863117635292360640",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/config.ts",
+          "hash": "1182729989227480957",
+          "deps": [
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/database/factories/booking.factory.ts",
+          "hash": "15743978145400068798",
+          "deps": [
+            "npm:typeorm-seeding"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/database/factories/parc.factory.ts",
+          "hash": "13428742530792054028",
+          "deps": [
+            "npm:typeorm-seeding"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/database/factories/user.factory.ts",
+          "hash": "15869751412426012078",
+          "deps": [
+            "npm:typeorm-seeding"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/database/seeds/booking.seed.ts",
+          "hash": "17848864873940573630",
+          "deps": [
+            "npm:typeorm",
+            "npm:typeorm-seeding"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/database/seeds/parc.seed.ts",
+          "hash": "11637030993824448584",
+          "deps": [
+            "npm:typeorm",
+            "npm:typeorm-seeding"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/database/seeds/user.seed.ts",
+          "hash": "4429703922999663348",
+          "deps": [
+            "npm:typeorm",
+            "npm:typeorm-seeding"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/booking/booking.contracts.ts",
+          "hash": "4743973871294713624",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/booking/booking.controller.ts",
+          "hash": "6683991163885773646",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:uuidv4"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/booking/booking.model.ts",
+          "hash": "3635961539864102529",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/booking/booking.service.ts",
+          "hash": "13746841087721976491",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/parc/parc.contracts.ts",
+          "hash": "13684447981183782977",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/parc/parc.controller.ts",
+          "hash": "10331468336712484332",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:uuidv4"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/parc/parc.model.ts",
+          "hash": "6364425809196460726",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/parc/parc.service.ts",
+          "hash": "15963780159404169940",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/user/user.contracts.ts",
+          "hash": "16082012430343090355",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/user/user.controller.ts",
+          "hash": "2779292574208661422",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:uuidv4"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/user/user.model.ts",
+          "hash": "5593555186428287167",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/entities/user/user.service.ts",
+          "hash": "10500070053427103848",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/flakey-api.interceptor.ts",
+          "hash": "9179314319520991147",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/engineering/src/main.ts",
+          "hash": "9795163887790762032",
+          "deps": [
+            "npm:@nestjs/core",
+            "server"
+          ]
+        },
+        {
+          "file": "apps/engineering/tsconfig.app.json",
+          "hash": "18146536384686769023"
+        },
+        {
+          "file": "apps/engineering/tsconfig.json",
+          "hash": "10208373213488752208"
+        },
+        {
+          "file": "apps/engineering/tsconfig.seed.json",
+          "hash": "16053506343996963847"
+        },
+        {
+          "file": "apps/engineering/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "apps/engineering/typeorm.config.ts",
+          "hash": "13264661275802939548",
+          "deps": [
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/engineering/webpack.config.js",
+          "hash": "11824673284397985794",
+          "deps": [
+            "npm:@nrwl/webpack"
+          ]
+        }
+      ]
+    }
+  }
+}
